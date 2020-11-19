@@ -7,10 +7,9 @@
  param(
     [Parameter()]
         [string]
-        $uri = "darrylslab.alsid.app",
+        $uri = "",
          [string]
-         $apikey = '82242af5-00ce-4941-bb22-b63b71b169f1'
-   
+         $apikey = ''   
  )
 
 $token = @{'x-api-key'=$apikey}
